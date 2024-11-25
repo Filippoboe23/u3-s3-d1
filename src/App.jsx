@@ -30,12 +30,12 @@ function App() {
         </header>
       </div>
       <div style={{ textAlign: "center", marginTop: "20px" }}>
-        <h1>Esempio di Componente Immagine</h1>
+        <h1 className="bg-danger py-3 my-5 text-white">LEGGI SOTTO!!!</h1>
         <ImageComponent src="https://www.civitatis.com/f/pois/ChIJ4zGFAZpYwokRGUGph3Mf37k.jpg" alt="la grande mela da central park" />
       </div>
 
       <div style={{ textAlign: "center", marginTop: "50px" }}>
-        <h1>teletrasportati a New York</h1>
+        <h2 className="text-primary bg-warning mb-5 py-3 fs-1">Teletrasportati a New York</h2>
         <Bottone label="VAI!!" onClick={handleClick} />
       </div>
     </>

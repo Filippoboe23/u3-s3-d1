@@ -2,17 +2,7 @@ import React from "react";
 
 function Bottone({ label, onClick }) {
   return (
-    <button
-      onClick={onClick}
-      style={{
-        padding: "10px 20px",
-        fontSize: "16px",
-        cursor: "pointer",
-        borderRadius: "5px",
-        border: "1px solid #ccc",
-        backgroundColor: "#f0f0f0"
-      }}
-    >
+    <button onClick={onClick} className=" mb-5 px-5 py-3 bg-info bg-gradient rounded border border-none text-white shadow">
       {label}
     </button>
   );
